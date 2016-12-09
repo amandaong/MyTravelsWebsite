@@ -1,0 +1,25 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+/*GOAL: move buttons to left & right of image & when hoever, change btn to btn w/ shadow*/
+.prev, .next {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	opacity: 0.6;
+}
+
+.prev {
+	position: absolute;
+    top: 75%;
+    left: 15%;
+}
+
+.next {
+	position: absolute;
+	top: 75%;
+	right: 15%;
+}
+
+.prev:hover, .next:hover{
+	opacity: 1;
+}
+
